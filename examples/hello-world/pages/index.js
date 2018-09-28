@@ -1,4 +1,9 @@
-import Link from 'next/link'
+import Link from "umi/link";
 export default () => (
-  <div>Hello World. <Link href='/about'><a>About</a></Link></div>
-)
+  <div>
+    Hello UmiJS.{" "}
+    <Link to="/about">
+      <a>Hello World</a>
+    </Link>
+  </div>
+);

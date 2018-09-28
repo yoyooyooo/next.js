@@ -1,15 +1,16 @@
 {
-  "name": "hello-world",
+  "name": "umi-example",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "umi build",
+    "start": "umi dev"
   },
   "dependencies": {
-    "next": "latest",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "umi": "latest"
   },
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
 }
